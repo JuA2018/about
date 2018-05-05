@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".developecontents">
+
+    <ImageView
+        android:id="@+id/youngchan"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/developeryoungchan"/>
+
+    <TextView
+        android:id="@+id/youngchancontent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/youngchan"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="name : Bae Young Chan
+                   \n Github ID : BYH
+                   \n address : https://github.com/BYHadong"/>
+
+    <ImageView
+        android:id="@+id/taeho"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/developertaeho"
+        android:layout_below="@id/youngchan"/>
+
+    <TextView
+        android:id="@+id/taehocontent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/youngchancontent"
+        android:gravity="center"
+        android:layout_toRightOf="@id/taeho"
+        android:text="name : Kim Tae Ho
+                   \n Github ID : GomTH
+                   \n address : https://github.com/GomTH"/>
+
+    <ImageView
+        android:id="@+id/developerchanyoung"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/taeho"
+        android:background="@drawable/developerchanyoung"
+        />
+
+    <TextView
+        android:id="@+id/chanyoungcontent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/taehocontent"
+        android:layout_toRightOf="@id/developerchanyoung"
+        android:gravity="center"
+        android:text="name : Jeong Chan Young
+                   \n Github ID : JuA2018
+                   \n address : https://github.com/JuA2018"/>
+
+</RelativeLayout>

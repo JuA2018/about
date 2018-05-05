@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/modiicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp"
+        android:gravity="center"
+        android:text="MoDi 어플은(My Only Diary)의 약자로
+                   \n 그 날의 기분, 감정 등을 태그와 함께 간단하게
+                   \n 메모할 수 있습니다.
+                   \n 지금 MoDi를 통해 당신의 인생을 기록해보세요!"
+        android:textSize="17dp" />
+
+    <ImageButton
+        android:id="@+id/developers"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/developers"
+        />
+
+
+</RelativeLayout>
